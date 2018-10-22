@@ -10,6 +10,11 @@ namespace MVVMDemo.ViewModel
 {
     class StudentViewModel
     {
+        public StudentViewModel()
+        {
+            LoadStudents();
+        }
+
         public ObservableCollection<Student> Students
         {
             get;
